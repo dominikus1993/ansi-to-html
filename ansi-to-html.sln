@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{878E2DCE-5339-4FF5-AC2B-1CD6FC2BF9E8}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C97895DA-40A9-4347-B168-0AAADEA3FB53}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AnsiToHtml", "src\AnsiToHtml\AnsiToHtml.fsproj", "{C7E9CFCD-0F71-4154-A7D8-0CCEF0203550}"
